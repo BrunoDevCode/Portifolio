@@ -16,7 +16,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background-color: ${props => props.theme.colors.primary};
+    background-color: ${(props) => props.theme.colors.backgroundPage};
   }
 
   html, body, #__next {
