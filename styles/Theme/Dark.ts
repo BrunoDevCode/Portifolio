@@ -2,11 +2,13 @@ import { DefaultTheme } from 'styled-components';
 
 const DarkTheme: DefaultTheme = {
   colors: {
-    text: '#60656F',
+    pageText: '#fefffe',
     title: '#131112',
-    primary: '#22577A',
+    primary: '#FF2400',
+    darkPrimary: '#A61600',
     secondBackground: '#F7F7FF',
-    backgroundPage: '#040403',
+    backgroundPage: '#585D62',
+    backgroundHeader: '#373A3B',
   },
 };
 
