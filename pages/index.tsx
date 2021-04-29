@@ -217,17 +217,40 @@ const Homepage: React.FC = () => {
                   <a href="https://bvmoveisrusticos.com.br" target="_blank">
                     <button>Acessar</button>
                   </a>
-                  <a
-                    href="https://github.com/BrunoDevCode/bv-moveis-back"
-                    target="_blank"
-                  >
-                    <button>Acessar Back-End (Github)</button>
-                  </a>
-                  <a
-                    href="https://github.com/BrunoDevCode/bv-moveis-web"
-                    target="_blank"
-                  >
-                    <button>Acessar Front-End (Github)</button>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="image-container">
+                <Image
+                  src="/mackarelweb.png"
+                  alt="Mackarel"
+                  width={25}
+                  height={25}
+                  layout="responsive"
+                  loading="lazy"
+                />
+              </div>
+              <div className="content">
+                <h3>Website - Mackarel</h3>
+
+                <p>Este sistema é usado para consulta de produtos</p>
+
+                <div className="modal">
+                  <h3>Website - Mackarel</h3>
+
+                  <p>Este sistema é usado para consulta de produtos</p>
+
+                  <div className="techs">
+                    <p>Express - Node JS</p>
+                    <p>Next JS - React JS</p>
+                    <p>Mongoose - Mongo DB</p>
+                    <p>Typescript</p>
+                  </div>
+
+                  <a href="https://mackarel-web.bhsdev.com.br" target="_blank">
+                    <button>Acessar</button>
                   </a>
                 </div>
               </div>

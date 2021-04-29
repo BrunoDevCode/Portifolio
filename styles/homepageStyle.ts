@@ -310,8 +310,8 @@ export const LabContainer = styled.div`
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
-    height: 175px;
-    border-radius: 16px;
+    height: 200px;
+    border-radius: 4px;
   }
 
   li div.image-container img {
